@@ -8,29 +8,8 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['5219992095479', '👑 hachiko - Creador 👑', true],
-  ['50499698072', '💫 hachiko - Collaborator 1 💫', true],
-  ['51940617554', '💫 hachiko - Collaborator 2 💫', true],
-  ['51996089079', '💫 hachiko - Collaborator 3 💫', true],
-  ['5218442286089', '💫 hachiko - Collaborator 4 💫', true],
-  ['50246028932', '💫 hachiko - Collaborator 5 💫', true],
-  ['5212412377467', '💫 hachiko - Collaborator 6 💫', true],
-  ['5215533827255', '💫 hachiko - Collaborator 7 💫', false],
-  ['59895555511', '💫 hachiko - Collaborator 8 💫', true],
-  ['50576390682', '💫 hachiko - Collaborator EnderGB 9 💫', true],
-  ['593968585283'],
-  ['5219993404349'],
-  ['584125778026'],
-  ['5219991402134'],
-  ['5492266466080'],
-  ['5219996125657'],
-  ['5492266613038'],
-  ['5218442114446'],
-  ['59894808483'],
-  ['593980586516'], 
-  ['595975740803'], 
-  ['595992611272'],
-  ['393755775755','💫 Mystic - Tester Fabri115💫', true]
+  ['51992004117', '👑 hachiko - Creador 👑', true],
+  ['50576390682', '💫 hachiko - Collaborator 1 💫', true],
 ];
 
 global.suittag = ['5219993404349'];
