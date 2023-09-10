@@ -21,11 +21,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝙷𝙰𝙲𝙷𝙸𝙺𝙾-𝙱𝙾𝚃* —◉
+║    ◉—*🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝙷𝙾𝙻𝙰, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝙾𝚆𝙽𝙴𝚁:* HacheJota
+║➤ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝚊𝚌𝚑𝚎𝙹𝚘𝚝𝚊
 ║➤ *𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
 ║➤ *𝙵𝙴𝙲𝙷𝙰:* ${date}
 ║➤ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
