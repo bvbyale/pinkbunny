@@ -223,37 +223,37 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝔾ℝ𝕌ℙ𝕆𝕊 />* 
+┃ *< 𝔾ℝ𝕌ℙ𝕆𝕊 𝔸𝕁𝕌𝕊𝕋𝔼𝕊 />* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💎 _${usedPrefix}add *<numero>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kick *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kick2 *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}listanum *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}kicknum *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-┣ ඬ⃟ 💎 _${usedPrefix}grouptime *<opcion> <tiempo>*_
-┣ ඬ⃟ 💎 _${usedPrefix}promote *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
-┣ ඬ⃟ 💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}infogroup_
-┣ ඬ⃟ 💎 _${usedPrefix}resetlink_
-┣ ඬ⃟ 💎 _${usedPrefix}link_
-┣ ඬ⃟ 💎 _${usedPrefix}setname *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setdesc *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}invocar *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setwelcome *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}setbye *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<texto>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<audio>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<video>*_
-┣ ඬ⃟ 💎 _${usedPrefix}hidetag *<imagen>*_
-┣ ඬ⃟ 💎 _${usedPrefix}warn *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}unwarn *<@tag>*_
-┣ ඬ⃟ 💎 _${usedPrefix}listwarn_
-┣ ඬ⃟ 💎 _${usedPrefix}fantasmas_
-┣ ඬ⃟ 💎 _${usedPrefix}destraba_
-┣ ඬ⃟ 💎 _${usedPrefix}setpp *<imagen>*_
+┣ ඬ⃟ 👥 _${usedPrefix}add *<numero>*_
+┣ ඬ⃟ 👥 _${usedPrefix}kick *<@tag>*_
+┣ ඬ⃟ 👥 _${usedPrefix}kick2 *<@tag>*_
+┣ ඬ⃟ 👥 _${usedPrefix}listanum *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}kicknum *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}grupo *<abrir / cerrar>*_
+┣ ඬ⃟ 👥 _${usedPrefix}grouptime *<opcion> <tiempo>*_
+┣ ඬ⃟ 👥 _${usedPrefix}promote *<@tag>*_
+┣ ඬ⃟ 👥 _${usedPrefix}demote *<@tag>*_
+┣ ඬ⃟ 👥 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┣ ඬ⃟ 👥 _${usedPrefix}demote *<@tag>*_
+┣ ඬ⃟ 👥 _${usedPrefix}infogroup_
+┣ ඬ⃟ 👥 _${usedPrefix}resetlink_
+┣ ඬ⃟ 👥 _${usedPrefix}link_
+┣ ඬ⃟ 👥 _${usedPrefix}setname *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}setdesc *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}invocar *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}setwelcome *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}setbye *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}hidetag *<texto>*_
+┣ ඬ⃟ 👥 _${usedPrefix}hidetag *<audio>*_
+┣ ඬ⃟ 👥 _${usedPrefix}hidetag *<video>*_
+┣ ඬ⃟ 👥 _${usedPrefix}hidetag *<imagen>*_
+┣ ඬ⃟ 👥 _${usedPrefix}warn *<@tag>*_
+┣ ඬ⃟ 👥 _${usedPrefix}unwarn *<@tag>*_
+┣ ඬ⃟ 👥 _${usedPrefix}listwarn_
+┣ ඬ⃟ 👥 _${usedPrefix}fantasmas_
+┣ ඬ⃟ 👥 _${usedPrefix}destraba_
+┣ ඬ⃟ 👥 _${usedPrefix}setpp *<imagen>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -404,25 +404,25 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💵 _${usedPrefix}adventure_
-┣ ඬ⃟ 💵 _${usedPrefix}cazar_
-┣ ඬ⃟ 💵 _${usedPrefix}cofre_
-┣ ඬ⃟ 💵 _${usedPrefix}balance_
-┣ ඬ⃟ 💵 _${usedPrefix}claim_
-┣ ඬ⃟ 💵 _${usedPrefix}heal_
-┣ ඬ⃟ 💵 _${usedPrefix}lb_
-┣ ඬ⃟ 💵 _${usedPrefix}levelup_
-┣ ඬ⃟ 💵 _${usedPrefix}myns_
-┣ ඬ⃟ 💵 _${usedPrefix}perfil_
-┣ ඬ⃟ 💵 _${usedPrefix}work_
-┣ ඬ⃟ 💵 _${usedPrefix}minar_
-┣ ඬ⃟ 💵 _${usedPrefix}minar2_
-┣ ඬ⃟ 💵 _${usedPrefix}buy_
-┣ ඬ⃟ 💵 _${usedPrefix}buyall_
-┣ ඬ⃟ 💵 _${usedPrefix}verificar_
-┣ ඬ⃟ 💵 _${usedPrefix}robar *<cantidad> <@tag>*_
-┣ ඬ⃟ 💵 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
-┣ ඬ⃟ 💵 _${usedPrefix}unreg *<numero de serie>*_
+┣ ඬ⃟ 💸 _${usedPrefix}adventure_
+┣ ඬ⃟ 💸 _${usedPrefix}cazar_
+┣ ඬ⃟ 💸 _${usedPrefix}cofre_
+┣ ඬ⃟ 💸 _${usedPrefix}balance_
+┣ ඬ⃟ 💸 _${usedPrefix}claim_
+┣ ඬ⃟ 💸 _${usedPrefix}heal_
+┣ ඬ⃟ 💸 _${usedPrefix}lb_
+┣ ඬ⃟ 💸 _${usedPrefix}levelup_
+┣ ඬ⃟ 💸 _${usedPrefix}myns_
+┣ ඬ⃟ 💸 _${usedPrefix}perfil_
+┣ ඬ⃟ 💸 _${usedPrefix}work_
+┣ ඬ⃟ 💸 _${usedPrefix}minar_
+┣ ඬ⃟ 💸 _${usedPrefix}minar2_
+┣ ඬ⃟ 💸 _${usedPrefix}buy_
+┣ ඬ⃟ 💸 _${usedPrefix}buyall_
+┣ ඬ⃟ 💸 _${usedPrefix}verificar_
+┣ ඬ⃟ 💸 _${usedPrefix}robar *<cantidad> <@tag>*_
+┣ ඬ⃟ 💸 _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
+┣ ඬ⃟ 💸 _${usedPrefix}unreg *<numero de serie>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -460,7 +460,7 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< 𝕆𝕎ℕ𝔼ℝ 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝔻𝕆ℝ𝔼𝕊 />*
+┃ *< 𝕆𝕎ℕ𝔼ℝ𝕊 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝕋𝕆ℝ𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣ ඬ⃟ 🌐 > *<funcion>*
 ┣ ඬ⃟ 🌐 => *<funcion>*
