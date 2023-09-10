@@ -8,15 +8,16 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
-  ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
-  ['5215533827255', '💫 Mystic - Collaborator 7 💫', false],
-  ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
+  ['5219992095479', '👑 hachiko - Creador 👑', true],
+  ['50499698072', '💫 hachiko - Collaborator 1 💫', true],
+  ['51940617554', '💫 hachiko - Collaborator 2 💫', true],
+  ['51996089079', '💫 hachiko - Collaborator 3 💫', true],
+  ['5218442286089', '💫 hachiko - Collaborator 4 💫', true],
+  ['50246028932', '💫 hachiko - Collaborator 5 💫', true],
+  ['5212412377467', '💫 hachiko - Collaborator 6 💫', true],
+  ['5215533827255', '💫 hachiko - Collaborator 7 💫', false],
+  ['59895555511', '💫 hachiko - Collaborator 8 💫', true],
+  ['50576390682', '💫 hachiko - Collaborator EnderGB 9 💫', true],
   ['593968585283'],
   ['5219993404349'],
   ['584125778026'],
@@ -36,11 +37,11 @@ global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = '(☞ﾟ∀ﾟ)☞';
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.titulowm = '🤖 ＴＨＥ ＭＹＳＴＩＣ － ＢＯＴ 🤖';
-global.titulowm2 = `乂  𝚃 𝙷 𝙴  𝙼 𝚈 𝚂 𝚃 𝙸 𝙲  -  𝙱 𝙾 𝚃  乂`
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
+global.author = '★ℍ𝕒𝕔𝕙𝕚𝕜𝕠 - 𝔹𝕆𝕋★';
+global.wm = '★ℍ𝕒𝕔𝕙𝕚𝕜𝕠 - 𝔹𝕆𝕋★';
+global.titulowm = '🤖 𝐇𝐀𝐂𝐇𝐈𝐊𝐎 － 𝐁𝐎𝐓 🤖';
+global.titulowm2 = `乂  𝐇 𝐀 𝐂 𝐇 𝐈 𝐊 𝐎  -  𝐁 𝐎 𝐓  乂`
+global.igfg = '★𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭★';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -63,9 +64,9 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 //* ****************************
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
 global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.mysticbot = '★Hachiko - Bot★';
+global.md = 'https://github.com/BrunoSobrino/Hachiko-bot-MD';
+global.mysticbot = 'https://github.com/BrunoSobrino/Hachiko-bot-MD';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
