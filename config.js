@@ -12,8 +12,8 @@ global.owner = [
   ['50576390682', '⚙️ Colaborador 1 ⚙️', true],
 ];
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['51992004117'];
+global.prems = ['51992004127'];
 
 global.packname = '🅗🅙';
 global.author = '🄷🄰🄲🄷🄸🄺🄾 - 🄱🄾🅃';
