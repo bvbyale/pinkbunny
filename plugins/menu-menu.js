@@ -22,13 +22,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯ 〙══╮
-║ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣-🅜🅓* —◉
+║◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣-🅜🅓* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║ 𒄬*𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
-║ 𒄬*𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
-║ 𒄬*𝙵𝙴𝙲𝙷𝙰:* ${date}
-║ 𒄬*𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
-║ 𒄬*𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:* ${rtotalreg}
+║ ✦*𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
+║ ✦*𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
+║ ✦*𝙵𝙴𝙲𝙷𝙰:* ${date}
+║ ✦*𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
+║ ✦*𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:* ${rtotalreg}
 ╰═══╡✯✯✯✯✯✯✯✯╞═══╯
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -75,7 +75,7 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕌ℕ𝔼 𝕌ℕ 𝔹𝕆𝕋 𝔸 𝕋𝕌 𝔾ℝ𝕌ℙ𝕆 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 👽 _${usedPrefix}join *<enlace / link / url>*_
+┣ ඬ⃟ 🔱 _${usedPrefix}join *<enlace / link / url>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -95,32 +95,32 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< ℙ𝔸ℕ𝔼𝕃 𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *welcome*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *welcome*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *modohorny*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *modohorny*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink2*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink2*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *detect*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *detect*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *audios*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *audios*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *autosticker*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *autosticker*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiviewonce*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiviewonce*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitoxic*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitoxic*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitraba*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitraba*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiarabes*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiarabes*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *modoadmin*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *modoadmin*_
-┣ ඬ⃟ ☑️ _${usedPrefix}enable *antidelete*_
-┣ ඬ⃟ ☑️ _${usedPrefix}disable *antidelete*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *welcome*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *welcome*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *modohorny*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *modohorny*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *antilink*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *antilink*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *antilink2*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *antilink2*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *detect*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *detect*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *audios*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *audios*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *autosticker*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *autosticker*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *antiviewonce*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *antiviewonce*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *antitoxic*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *antitoxic*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *antitraba*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *antitraba*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *antiarabes*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *antiarabes*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *modoadmin*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *modoadmin*_
+┣ ඬ⃟ 🔮 _${usedPrefix}enable *antidelete*_
+┣ ඬ⃟ 🔮 _${usedPrefix}disable *antidelete*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -223,16 +223,16 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< ℙ𝔸ℕ𝔼𝕃 ℂ𝕆ℕ𝕍𝔼ℝ𝕋𝕀𝔻𝕆ℝ𝔼𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🧧 _${usedPrefix}toanime *<imagen>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}togifaud *<video>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}toimg *<sticker>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tomp3 *<video>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tomp3 *<nota de voz>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}toptt *<video / audio>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tovideo *<sticker>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tourl *<video / imagen / audio>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tts *<idioma> <texto>*_
-┣ ඬ⃟ 🧧 _${usedPrefix}tts *<efecto> <texto>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}toanime *<imagen>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}togifaud *<video>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}toimg *<sticker>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}tomp3 *<video>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}tomp3 *<nota de voz>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}toptt *<video / audio>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}tovideo *<sticker>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}tourl *<video / imagen / audio>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}tts *<idioma> <texto>*_
+┣ ඬ⃟ 🧿 _${usedPrefix}tts *<efecto> <texto>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
