@@ -24,11 +24,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯ 〙══╮
 ║ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
-║➤ *𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
-║➤ *𝙵𝙴𝙲𝙷𝙰:* ${date}
-║➤ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
-║➤ *𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:* ${rtotalreg}
+║☛ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
+║☛ *𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
+║☛ *𝙵𝙴𝙲𝙷𝙰:* ${date}
+║☛ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
+║☛ *𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:* ${rtotalreg}
 ╰═══╡✯✯✯✯✯✯✯✯╞═══╯
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -126,7 +126,7 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┣ *< ℝ𝔼ℙ𝕆ℝ𝕋𝔸ℝ 𝔼ℝℝ𝕆ℝ𝔼𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🔰 _${usedPrefix}reporte *<texto>*_
+┣ ඬ⃟ 🛑 _${usedPrefix}reporte *<texto>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -298,7 +298,7 @@ ${readMore}
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-┃ *< ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠 ℂ𝕠𝕟𝕥𝕖𝕟𝕚𝕕𝕠 ℍ />*
+┃ *< ‼️ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠 ℂ𝕠𝕟𝕥𝕖𝕟𝕚𝕕𝕠 ℍ‼️ />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣ ඬ⃟ 🔞 _${usedPrefix}labiblia_
 ┗━━━━━━━━━━━━━━━━┛
@@ -392,35 +392,35 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 👽 _${usedPrefix}sticker *<responder a imagen o video>*_
-┣ ඬ⃟ 👽 _${usedPrefix}sticker *<enlace / link / url>*_
-┣ ඬ⃟ 👽 _${usedPrefix}sticker2 *<responder a imagen o video>*_
-┣ ඬ⃟ 👽 _${usedPrefix}sticker2 *<enlace / link / url>*_
-┣ ඬ⃟ 👽 _${usedPrefix}s *<responder a imagen o video>*_
-┣ ඬ⃟ 👽 _${usedPrefix}s *<enlace / link / url>*_
-┣ ඬ⃟ 👽 _${usedPrefix}s2 *<responder a imagen o video>*_
-┣ ඬ⃟ 👽 _${usedPrefix}s2 *<enlace / link / url>*_
-┣ ඬ⃟ 👽 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
-┣ ඬ⃟ 👽 _${usedPrefix}scircle *<imagen>*_
-┣ ඬ⃟ 👽 _${usedPrefix}sremovebg *<imagen>*_
-┣ ඬ⃟ 👽 _${usedPrefix}semoji *<tipo> <emoji>*_
-┣ ඬ⃟ 👽 _${usedPrefix}qc *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}attp *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}attp2 *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}attp3 *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}ttp *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}ttp2 *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}ttp3 *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}ttp4 *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}ttp5 *<texto>*_
-┣ ඬ⃟ 👽 _${usedPrefix}pat *<@tag>*_
-┣ ඬ⃟ 👽 _${usedPrefix}slap *<@tag>*_
-┣ ඬ⃟ 👽 _${usedPrefix}kiss *<@tag>*_
-┣ ඬ⃟ 👽 _${usedPrefix}dado_
-┣ ඬ⃟ 👽 _${usedPrefix}wm *<packname> <author>*_
-┣ ඬ⃟ 👽 _${usedPrefix}stickermarker *<efecto> <imagen>*_
-┣ ඬ⃟ 👽 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
-┣ ඬ⃟ 👽 _${usedPrefix}cartoon *<responder a imagen>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}sticker *<responder a imagen o video>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}sticker *<enlace / link / url>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}sticker2 *<responder a imagen o video>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}sticker2 *<enlace / link / url>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}s *<responder a imagen o video>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}s *<enlace / link / url>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}s2 *<responder a imagen o video>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}s2 *<enlace / link / url>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}scircle *<imagen>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}sremovebg *<imagen>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}semoji *<tipo> <emoji>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}qc *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}attp *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}attp2 *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}attp3 *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}ttp *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}ttp2 *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}ttp3 *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}ttp4 *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}ttp5 *<texto>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}pat *<@tag>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}slap *<@tag>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}kiss *<@tag>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}dado_
+┣ ඬ⃟ 🎈 _${usedPrefix}wm *<packname> <author>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}stickermarker *<efecto> <imagen>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}stickerfilter *<efecto> <imagen>*_
+┣ ඬ⃟ 🎈 _${usedPrefix}cartoon *<responder a imagen>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
