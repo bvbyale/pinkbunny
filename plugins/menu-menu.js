@@ -81,15 +81,15 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕊𝔼ℝ𝔹𝕆𝕋 - 𝕁𝔸𝔻𝕀𝔹𝕆𝕋 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🤖 _${usedPrefix}serbot_
-┣ ඬ⃟ 🤖 _${usedPrefix}stop_
-┣ ඬ⃟ 🤖 _${usedPrefix}bots_
+┣ ඬ⃟ 💻 _${usedPrefix}serbot_
+┣ ඬ⃟ 💻 _${usedPrefix}stop_
+┣ ඬ⃟ 💻 _${usedPrefix}bots_
 ┗━━━━━━━━━━━━━━━━┛ 
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕁𝕌𝔼𝔾𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🎖️ _${usedPrefix}menujuegos_
+┣ ඬ⃟ 🏰 _${usedPrefix}menujuegos_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -132,41 +132,41 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 📥 _${usedPrefix}instagram *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}mediafire *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}gitclone *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}gdrive *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}tiktok *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}tiktokimg *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}xnxxdl *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}xvideosdl *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}twitter *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}fb *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}ytshort *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}videodoc *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}dapk2 *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}stickerpack *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _${usedPrefix}play *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}play2 *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}play.1 *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}play.2 *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}playdoc *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}playdoc2 *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}playlist *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}spotify *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}ringtone *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}soundcloud *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}imagen *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}pinterest *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}wallpaper *<texto>*_
-┣ ඬ⃟ 📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
-┣ ඬ⃟ 📥 _${usedPrefix}igstalk *<nombre de usuario>*_
-┣ ඬ⃟ 📥 _${usedPrefix}igstory *<nombre de usuario>*_
-┣ ඬ⃟ 📥 _${usedPrefix}tiktokstalk *<username>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}instagram *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}mediafire *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}gitclone *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}gdrive *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}tiktok *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}tiktokimg *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}xnxxdl *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}xvideosdl *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}twitter *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}fb *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}ytshort *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}ytmp3 *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}ytmp4 *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}videodoc *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}dapk2 *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}stickerpack *<enlace / link / url>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}play *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}play2 *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}play.1 *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}play.2 *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}playdoc *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}playdoc2 *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}playlist *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}spotify *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}ringtone *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}soundcloud *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}imagen *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}pinterest *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}wallpaper *<texto>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}pptiktok *<nombre de usuario>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}igstalk *<nombre de usuario>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}igstory *<nombre de usuario>*_
+┣ ඬ⃟ 🚀 _${usedPrefix}tiktokstalk *<username>*_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
@@ -324,9 +324,9 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< ℂℍ𝔸𝕋 𝔸ℕ𝕆ℕ𝕀𝕄𝕆 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 📳 _${usedPrefix}start_
-┣ ඬ⃟ 📳 _${usedPrefix}next_
-┣ ඬ⃟ 📳 _${usedPrefix}leave_
+┣ ඬ⃟ 👁️‍🗨️ _${usedPrefix}start_
+┣ ඬ⃟ 👁️‍🗨️ _${usedPrefix}next_
+┣ ඬ⃟ 👁️‍🗨️ _${usedPrefix}leave_
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
