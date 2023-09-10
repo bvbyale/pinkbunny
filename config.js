@@ -8,8 +8,8 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['51992004117', '👑 Bruno sobrino - Creador 👑', true],
-  ['50576390682', '💫 Ender GB - Collaborator 1 💫', true],
+  ['51992004117', '👑 Creador 👑', true],
+  ['50576390682', '💫 Colaborador 1 💫', true],
 ];
 
 global.suittag = ['5219993404349'];
