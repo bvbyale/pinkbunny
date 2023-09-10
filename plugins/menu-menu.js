@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯ 〙══╮
 ║ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝙾𝚆𝙽𝙴𝚁: 𝙷𝚊𝚌𝚑𝚎𝙹𝚘𝚝𝚊*
+║➤ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
 ║➤ *𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
 ║➤ *𝙵𝙴𝙲𝙷𝙰:* ${date}
 ║➤ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
@@ -426,70 +426,7 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕆𝕎ℕ𝔼ℝ𝕊 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝕋𝕆ℝ𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🌐 > *<funcion>*
-┣ ඬ⃟ 🌐 => *<funcion>*
-┣ ඬ⃟ 🌐 _$ *<funcion>*
-┣ ඬ⃟ 🌐 _${usedPrefix}setprefix *<prefijo>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}desactivarwa *<numero>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}resetprefix_
-┣ ඬ⃟ 🌐 _${usedPrefix}autoadmin_
-┣ ඬ⃟ 🌐 _${usedPrefix}chetar_
-┣ ඬ⃟ 🌐 _${usedPrefix}leavegc_
-┣ ඬ⃟ 🌐 _${usedPrefix}cajafuerte_
-┣ ඬ⃟ 🌐 _${usedPrefix}blocklist_
-┣ ඬ⃟ 🌐 _${usedPrefix}block *<@tag / numero>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}unblock *<@tag / numero>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *restrict*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *restrict*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *autoread*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *autoread*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *public*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *public*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *pconly*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *pconly*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *gconly*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *gconly*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *anticall*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *anticall*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *antiprivado*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *antiprivado*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *modejadibot*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *modejadibot*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *audios_bot*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *audios_bot*_
-┣ ඬ⃟ 🌐 _${usedPrefix}enable *antispam*_
-┣ ඬ⃟ 🌐 _${usedPrefix}disable *antispam*_
-┣ ඬ⃟ 🌐 _${usedPrefix}msg *<texto>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}banchat_
-┣ ඬ⃟ 🌐 _${usedPrefix}unbanchat_
-┣ ඬ⃟ 🌐 _${usedPrefix}resetuser *<@tag>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}banuser *<@tag>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}unbanuser *<@tag>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}dardiamantes *<@tag> <cantidad>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}añadirxp *<@tag> <cantidad>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}banuser *<@tag>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}bc *<texto>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}bcchats *<texto>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}bcgc *<texto>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}bcgc2 *<audio>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}bcgc2 *<video>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}bcgc2 *<imagen>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}bcbot *<texto>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}cleartpm_
-┣ ඬ⃟ 🌐 _${usedPrefix}restart_
-┣ ඬ⃟ 🌐 _${usedPrefix}update_
-┣ ඬ⃟ 🌐 _${usedPrefix}banlist_
-┣ ඬ⃟ 🌐 _${usedPrefix}addprem *<@tag> <tiempo>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}addprem2 *<@tag> <tiempo>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}addprem3 *<@tag> <tiempo>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}addprem4 *<@tag> <tiempo>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}delprem *<@tag>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}listcmd_
-┣ ඬ⃟ 🌐 _${usedPrefix}setppbot *<responder a imagen>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}addcmd *<texto> <responder a sticker/imagen>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}delcmd *<responder a sticker/imagen con comando o texto asignado>*_
-┣ ඬ⃟ 🌐 _${usedPrefix}saveimage
-┣ ඬ⃟ 🌐 _${usedPrefix}viewimage
+┣ ඬ⃟ 🌐 _${usedPrefix}menuowner_
 ┗━━━━━━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
