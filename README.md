@@ -92,7 +92,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
  ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
-<a href="http://wa.me/51992004117" target="blank"><img src="https://img.shields.io/badge/HACHE_JOTA_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a
+<a href="http://wa.me/51992004117" target="blank"><img src="https://img.shields.io/badge/HACHE_JOTA_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ## `COLABORADORES DEL BOT` 
 <a href="[https://github.com/Ender-GB-Isis777]"><img src="https://github.com/Ender-GB-Isis777.png" width="100" height="100" alt="Ender"/></a>
