@@ -34,16 +34,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕆𝕎ℕ𝔼ℝ𝕊 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝕋𝕆ℝ𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-⟣𒈮 ඬ⃟ 🌐 > *<funcion>*
-⟣𒈮 ඬ⃟ 🌐 => *<funcion>*
-⟣𒈮 ඬ⃟ 🌐 _$ *<funcion>*
-⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}setprefix *<prefijo>*_
-⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}desactivarwa *<numero>*_
-⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}resetprefix_
-⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}autoadmin_
-⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}chetar_
-⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}leavegc_
-⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}cajafuerte_
+┣⟣❥ ඬ⃟ 🌐 > *<funcion>*
+┣⟣❥ ඬ⃟ 🌐 => *<funcion>*
+┣⟣❥ ඬ⃟ 🌐 _$ *<funcion>*
+┣⟣❥ ඬ⃟ 🌐 _${usedPrefix}setprefix *<prefijo>*_
+┣⟣❥ ඬ⃟ 🌐 _${usedPrefix}desactivarwa *<numero>*_
+┣⟣❥ ඬ⃟ 🌐 _${usedPrefix}resetprefix_
+┣⟣❥ ඬ⃟ 🌐 _${usedPrefix}autoadmin_
+┣⟣❥ ඬ⃟ 🌐 _${usedPrefix}chetar_
+┣⟣❥ ඬ⃟ 🌐 _${usedPrefix}leavegc_
+┣⟣❥ ඬ⃟ 🌐 _${usedPrefix}cajafuerte_
 ⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}blocklist_
 ⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}block *<@tag / numero>*_
 ⟣𒈮 ඬ⃟ 🌐 _${usedPrefix}unblock *<@tag / numero>*_
