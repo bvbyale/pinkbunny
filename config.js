@@ -8,7 +8,7 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['51992004117', '👑 Creador 👑', true],
+  ['51992004117', '👑 CREADOR 👑', true],
   ['50576390682', '💻 Colaborador 1 💻', true],
   ['573106040746'],
 ];
@@ -17,7 +17,7 @@ global.suittag = ['51992004117'];
 global.prems = ['51992004127'];
 
 global.packname = '𝙱𝙾𝚃\n𝙲𝚁𝙴𝙰𝙳𝙾𝚁';
-global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\n ʜᴀᴄʜᴇᴊɪᴛᴀ';
+global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
 global.wm = 'ⒽⒶⒸⒽⒾⓀⓄ - ⒷⓄⓉ';
 global.titulowm = '🤖 𝐇𝐀𝐂𝐇𝐈𝐊𝐎 － 𝐁𝐎𝐓 🤖';
 global.titulowm2 = `乂  𝐇 𝐀 𝐂 𝐇 𝐈 𝐊 𝐎  -  𝐁 𝐎 𝐓  乂`
