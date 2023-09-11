@@ -16,8 +16,8 @@ global.owner = [
 global.suittag = ['51992004117'];
 global.prems = ['51992004127'];
 
-global.packname = '𝙱𝙾𝚃\n 𝙾𝚆𝙽𝙴𝚁';
-global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏɢ-ᴍᴅ\n ʜᴀᴄʜᴇᴊɪᴛs';
+global.packname = '𝙱𝙾𝚃\n𝙲𝚁𝙴𝙰𝙳𝙾𝚁';
+global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\n ʜᴀᴄʜᴇᴊɪᴛᴀ';
 global.wm = 'ⒽⒶⒸⒽⒾⓀⓄ - ⒷⓄⓉ';
 global.titulowm = '🤖 𝐇𝐀𝐂𝐇𝐈𝐊𝐎 － 𝐁𝐎𝐓 🤖';
 global.titulowm2 = `乂  𝐇 𝐀 𝐂 𝐇 𝐈 𝐊 𝐎  -  𝐁 𝐎 𝐓  乂`
@@ -30,7 +30,7 @@ global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6= fs.readFileSync('./Menu3.png');
-global.img6 = 'https://telegra.ph/file/83d312b9ad7e8c23b5c2a.jpg'
+global.img6 = fs.readFileSync('https://telegra.ph/file/83d312b9ad7e8c23b5c2a.jpg')
 
 global.mods = [];
 
