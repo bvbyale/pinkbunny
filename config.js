@@ -30,7 +30,6 @@ global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6= fs.readFileSync('./Menu3.png');
-global.img6 = fs.readFileSync('https://telegra.ph/file/83d312b9ad7e8c23b5c2a.jpg')
 
 global.mods = [];
 
