@@ -78,7 +78,7 @@ let menu = `prueba,`
  * @return {?}
  */
 function _0x2daf() {
-  const _0x4c1076 = ["namedoc", "social", "1017dFLzIP", "11680bWFOeX", "sendMessage", "1FnTozH", "6qNtNxK", "445374chjKag", "2096504ySppGm", "627669MaFyqj", "readFileSync", "En breve se enviar\u00e1 el men\u00fa...", "374160lMCurS", "356228pujvOS", "./storage/Menu2.jpg", "1019845zOpQQK", "pdf", "chat"];
+  const _0x4c1076 = ["namedoc", "social", "1017dFLzIP", "11680bWFOeX", "sendMessage", "1FnTozH", "6qNtNxK", "445374chjKag", "2096504ySppGm", "627669MaFyqj", "readFileSync", "En breve se enviar\u00e1 el men\u00fa...", "374160lMCurS", "356228pujvOS", "./Menu2.jpg", "1019845zOpQQK", "pdf", "chat"];
   /**
    * @return {?}
    */
