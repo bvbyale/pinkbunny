@@ -34,39 +34,39 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕁𝕌𝔼𝔾𝕆𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}ppt *<papel / tijera /piedra>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}prostituto *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}prostituta *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}gay2 *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}lesbiana *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}pajero *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}pajera *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}puto *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}puta *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}manco *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}manca *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}rata *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}love *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}doxear *<nombre / @tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}pregunta *<texto>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}suitpvp *<@tag>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}slot *<apuesta>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}ttt *<nombre sala>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}delttt_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}acertijo_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}simi *<texto>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}top *<texto>*_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}topgays_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}topotakus_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}formarpareja_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}verdad_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}reto_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}cancion_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}pista_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}akinator_
-⟣𒈮 ඬ⃟ 🏰 _${usedPrefix}wordfind_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}ppt *<papel / tijera /piedra>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}prostituto *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}prostituta *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}gay2 *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}lesbiana *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}pajero *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}pajera *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}puto *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}puta *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}manco *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}manca *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}rata *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}love *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}doxear *<nombre / @tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}pregunta *<texto>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}suitpvp *<@tag>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}slot *<apuesta>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}ttt *<nombre sala>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}delttt_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}acertijo_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}simi *<texto>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}top *<texto>*_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}topgays_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}topotakus_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}formarpareja_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}verdad_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}reto_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}cancion_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}pista_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}akinator_
+ ⟣❥ ඬ⃟ 🏰 _${usedPrefix}wordfind_
 ┗━━━━━━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
