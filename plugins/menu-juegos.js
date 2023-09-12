@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯ 〙══╮
 ║ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *𝙾𝚆𝙽𝙴𝚁: 𝙷𝚊𝚌𝚑𝚎𝙹𝚘𝚝𝚊*
+║➤ *𝙾𝚆𝙽𝙴𝚁: 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰*
 ║➤ *𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
 ║➤ *𝙵𝙴𝙲𝙷𝙰:* ${date}
 ║➤ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
@@ -33,20 +33,20 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕁𝕌𝔼𝔾𝕆𝕊 />*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}ppt *<papel / tijera /piedra>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}prostituto *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}prostituta *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}gay2 *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}lesbiana *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}pajero *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}pajera *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}puto *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}puta *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}manco *<nombre / @tag>*_
- ⟣❥ ඬ⃟ 🏰 _${usedPrefix}manca *<nombre / @tag>*_
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃ 
+┣⟣❥ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+┣⟣❥ _${usedPrefix}fake *<texto1> <@tag> <texto2>*_
+┣⟣❥ _${usedPrefix}ppt *<papel / tijera /piedra>*_
+┣⟣❥ _${usedPrefix}prostituto *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}prostituta *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}gay2 *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}lesbiana *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}pajero *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}pajera *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}puto *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}puta *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}manco *<nombre / @tag>*_
+┣⟣❥ _${usedPrefix}manca *<nombre / @tag>*_
  ⟣❥ ඬ⃟ 🏰 _${usedPrefix}rata *<nombre / @tag>*_
  ⟣❥ ඬ⃟ 🏰 _${usedPrefix}love *<nombre / @tag>*_
  ⟣❥ ඬ⃟ 🏰 _${usedPrefix}doxear *<nombre / @tag>*_
