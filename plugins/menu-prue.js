@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 const handler = async (m, { conn, args }) => {
    const res = await fetch('https://api.github.com/repos/HACHEJOTA/Hachiko-Bot-MD');
    const json = await res.json();
-   let txt = ` ┏━━━━━━━━━━━━━━━━━━┓
+   let txt = `┏━━━━━━━━━━━━━━━━━━┓
 ┃ *◉— 🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣 —◉*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
