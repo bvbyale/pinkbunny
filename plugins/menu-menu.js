@@ -21,10 +21,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `╭═══〘 ☢︎︎☢︎︎☢︎︎☢︎︎☢︎︎☢︎︎☢︎︎☢︎︎ 〙══╮
-║ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣* —◉
+    const str = `┏━━━━━━━━━━━━━━━━┓
+║ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣-🅜🅓* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-┏━━━━━━━━━━━━━━━━┓
 ┣⟣☯︎ 𝙱𝙾𝚃         ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ
 ┣⟣☯︎ 𝙲𝚁𝙴𝙰𝙳𝙾𝚁  ʜᴀᴄʜᴇᴊᴏᴛᴀ
 ┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾* +51 992 004 117
