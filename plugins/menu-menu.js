@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━┓
-┃ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣-🅜🅓* —◉
+┃ *◉—🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣-🅜🅓—◉*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣⟣☯︎ 𝙾𝚆𝙽𝙴𝚁: 𝙷𝙰𝙲𝙷𝙴𝙹𝙾𝚃𝙰
 ┣⟣☯︎ 𝙽𝚄𝙼𝙴𝚁𝙾: +51 992 004 117
