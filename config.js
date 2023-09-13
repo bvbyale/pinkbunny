@@ -16,8 +16,8 @@ global.owner = [
 global.suittag = ['51992004117'];
 global.prems = ['51992004127'];
 
-global.packname = '┏━━━━━━━━━━━━━━━━┓\n┣⟣☯︎ 𝙱𝙾𝚃\n┣⟣☯︎𝙲𝚁𝙴𝙰𝙳𝙾𝚁';
-global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ\n┗━━━━━━━━━━━━━━━━┛';
+global.packname = '┏━━━━━━━━━━━━━━━━┓\n┣⟣☯︎ 𝙱𝙾𝚃\n┣⟣☯︎𝙲𝚁𝙴𝙰𝙳𝙾𝚁\n┗━━━━━━━━━━━━━━━━┛';
+global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
 global.wm = 'ⒽⒶⒸⒽⒾⓀⓄ - ⒷⓄⓉ';
 global.titulowm = '🤖 𝐇𝐀𝐂𝐇𝐈𝐊𝐎 － 𝐁𝐎𝐓 🤖';
 global.titulowm2 = `乂  𝐇 𝐀 𝐂 𝐇 𝐈 𝐊 𝐎  -  𝐁 𝐎 𝐓  乂`
