@@ -16,7 +16,7 @@ global.owner = [
 global.suittag = ['51992004117'];
 global.prems = ['51992004127'];
 
-global.packname = '┏━━━━━━━━━━━━━━━━┓\n┣⟣☯︎ 𝙱𝙾𝚃\n┣⟣☯︎𝙲𝚁𝙴𝙰𝙳𝙾𝚁\n┗━━━━━━━━━━━━━━━━┛';
+global.packname = '┣⟣☯︎ 𝙱𝙾𝚃\n┣⟣☯︎𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
 global.wm = 'ⒽⒶⒸⒽⒾⓀⓄ - ⒷⓄⓉ';
 global.titulowm = '🤖 𝐇𝐀𝐂𝐇𝐈𝐊𝐎 － 𝐁𝐎𝐓 🤖';
