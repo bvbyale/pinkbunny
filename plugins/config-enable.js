@@ -1,16 +1,16 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
   const optionsFull =`✦🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣-🅜🅓✦
   
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄 :* 🧸|𝐖𝐄𝐋𝐂𝐎𝐌𝐄
+*🅑🅘🅔🅝🅥🅔🅝🅘🅓🅐 :* 🧸|𝐖𝐄𝐋𝐂𝐎𝐌𝐄
 
-*ℂ𝕠𝕞𝕒𝕟𝕕𝕠:* ${usedPrefix + command} welcome
+*𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} welcome
 
-*𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝖼𝗂𝗈́𝗇:*  Activa o desactiva la bienvenida en el grupo.
+*𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva la bienvenida en el grupo.
 
-*Ⓝⓞⓣⓐ:*  Comando solo para admins de grupo⚖️.
+*𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 👥|𝐌𝐎𝐃𝐎 𝐏𝐔𝐁𝐋𝐈𝐂𝐎 
+*🅑🅞🅣:* 👥|𝐌𝐎𝐃𝐎 𝐏𝐔𝐁𝐋𝐈𝐂𝐎 
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} public
 
@@ -19,7 +19,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podra ser usado por owners del bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 😳|𝐌𝐎𝐃𝐎 𝐇𝐎𝐑𝐍𝐘
+*🅢🅔🅝🅢🅤🅐🅛:* 😳|𝐌𝐎𝐃𝐎 𝐇𝐎𝐑𝐍𝐘
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} modohorny
 
@@ -28,7 +28,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🗡️|𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊
+*🅝🅞 🅔🅝🅛🅐🅒🅔🅢:* 🗡️|𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antilink
 
@@ -37,7 +37,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* ⚔️|𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊2
+*🅝🅞 🅔🅝🅛🅐🅒🅔🅢:* ⚔️|𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊2
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antilink2
 
@@ -46,7 +46,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🔎|𝐃𝐄𝐓𝐄𝐂𝐓
+*🅓🅔🅣🅔🅒🅣🅐🅡:* 🔎|𝐃𝐄𝐓𝐄𝐂𝐓
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} detect
 
@@ -55,7 +55,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄 :* 🔎|𝐃𝐄𝐓𝐄𝐂𝐓 2
+*🅓🅔🅣🅔🅒🅣🅐🅡:* 🔎|𝐃𝐄𝐓𝐄𝐂𝐓 2
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} detect2
 
@@ -64,7 +64,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🛡️|𝐑𝐄𝐒𝐓𝐑𝐈𝐂𝐓
+*🅟🅞🅓🅔🅡 🅑🅞🅣:* 🛡️|𝐑𝐄𝐒𝐓𝐑𝐈𝐂𝐓
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} restrict
 
@@ -73,7 +73,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podra ser usado por owners del bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🔮|𝐀𝐔𝐓𝐎𝐑𝐄𝐀𝐃
+*🅥🅘🅢🅣🅐 🅐🅤🅣🅞:* 🔮|𝐀𝐔𝐓𝐎𝐑𝐄𝐀𝐃
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} autoread
 
@@ -82,7 +82,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🔊|𝐀𝐔𝐃𝐈𝐎𝐒
+*🅐🅤🅓🅘🅞 🅑🅞🅣:* 🔊|𝐀𝐔𝐃𝐈𝐎𝐒
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} audios
 
@@ -91,7 +91,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 👾|𝐀𝐔𝐓𝐎𝐒𝐓𝐈𝐂𝐊𝐄𝐑
+*🅢🅣🅘🅒🅚🅔🅡 🅐🅤🅣🅞:* 👾|𝐀𝐔𝐓𝐎𝐒𝐓𝐈𝐂𝐊𝐄𝐑
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} autosticker 
 
@@ -100,7 +100,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 💬|𝐏𝐂𝐎𝐍𝐋𝐘
+*🅢🅞🅛🅞 🅟🅡🅘🅥🅐🅓🅞:* 💬|𝐏𝐂𝐎𝐍𝐋𝐘
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} pconly
 
@@ -109,16 +109,16 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🏢|𝐆𝐂𝐎𝐍𝐋𝐘
+*🅢🅞🅛🅞 🅖🅡🅤🅟🅞🅢:* 🏢|𝐆𝐂𝐎𝐍𝐋𝐘
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} gconly
 
 *𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot solo respondera a los comandos si es un grupo. 
 
 *𝗡𝗢𝗧𝗔:*  Esta comando solo podrá ser usado por owners del Bot💻.
---------------------------------
+----------- 
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* ❌|𝐀𝐍𝐓𝐈𝐕𝐈𝐄𝐖𝐎𝐍𝐂𝐄 
+*🅘🅜🅐🅖🅔🅝 🅟🅤🅑🅛🅘🅒🅐:* ❌|𝐀𝐍𝐓𝐈𝐕𝐈𝐄𝐖𝐎𝐍𝐂𝐄 
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiviewonce
 
@@ -127,7 +127,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 📵|𝐀𝐍𝐓𝐈 𝐋𝐋𝐀𝐌𝐀𝐃𝐀
+*🅝🅞 🅟🅔🅡🅜🅘🅣🅔 🅛🅛🅐🅜🅐🅓🅐:* 📵|𝐀𝐍𝐓𝐈 𝐋𝐋𝐀𝐌𝐀𝐃𝐀
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} anticall
 
@@ -136,7 +136,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podra ser usado por owners del Bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🚫|𝐀𝐍𝐓𝐈𝐏𝐑𝐈𝐕𝐀𝐃𝐎
+*🅝🅞 🅗🅐🅑🅛🅐🅡 🅐🅛 🅟🅥:* 🚫|𝐀𝐍𝐓𝐈𝐏𝐑𝐈𝐕𝐀𝐃𝐎
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiprivado
 
@@ -145,7 +145,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🤬|𝐀𝐍𝐓𝐈𝐓𝐎𝐗𝐈𝐂
+*🅝🅞 🅢🅞🅔🅩:* 🤬|𝐀𝐍𝐓𝐈𝐓𝐎𝐗𝐈𝐂
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antitoxic
 
@@ -154,7 +154,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🕸️| 𝐀𝐍𝐓𝐈𝐓𝐑𝐀𝐁𝐀𝐒
+*🅐🅝🅤🅛🅐🅡 🅣🅡🅐🅑🅐🅢:* 🕸️| 𝐀𝐍𝐓𝐈𝐓𝐑𝐀𝐁𝐀𝐒
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antitraba
 
@@ -163,7 +163,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🔪|𝐀𝐍𝐓𝐈𝐀𝐑𝐀𝐁𝐄𝐒
+*🅝🅤🅜🅔🅡🅞🅢 🅕🅐🅚🅔:* 🔪|𝐀𝐍𝐓𝐈𝐀𝐑𝐀𝐁𝐄𝐒
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiarabes
 
@@ -172,7 +172,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Se necesita tener activo el welcome y el restrict🛡️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🔪|𝐀𝐍𝐓𝐈𝐀𝐑𝐀𝐁𝐄𝐒 2
+*🅝🅤🅝🅔🅡🅞🅢 🅕🅐🅚🅔:* 🔪|𝐀𝐍𝐓𝐈𝐀𝐑𝐀𝐁𝐄𝐒 2
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiarabes2
 
@@ -181,7 +181,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🤖|𝐌𝐎𝐃𝐄𝐉𝐀𝐃𝐈𝐁𝐎𝐓
+*🅝🅞 🅢🅤🅑 🅑🅞🅣🅢:* 🤖|𝐌𝐎𝐃𝐄𝐉𝐀𝐃𝐈𝐁𝐎𝐓
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} modejadibot
 
@@ -190,7 +190,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 💻|𝐌𝐎𝐃𝐎𝐀𝐃𝐌𝐈𝐍
+*🅢🅞🅛🅞 🅐🅓🅜🅘🅝🅢 🅑🅞🅣:* 💻|𝐌𝐎𝐃𝐎𝐀𝐃𝐌𝐈𝐍
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} modoadmin
 
@@ -199,7 +199,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🎀|𝐒𝐈𝐌𝐒𝐈𝐌𝐈
+*🅒🅗🅐🅣 🅑🅞🅣:* 🎀|𝐒𝐈𝐌𝐒𝐈𝐌𝐈
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} simsimi
 
@@ -208,7 +208,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando Solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* ⏳|𝐀𝐍𝐓𝐈𝐒𝐏𝐀𝐌
+*🅝🅞 🅢🅟🅐🅜:* ⏳|𝐀𝐍𝐓𝐈𝐒𝐏𝐀𝐌
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antispam
 
@@ -217,7 +217,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🧿|𝐀𝐍𝐓𝐈𝐃𝐄𝐋𝐄𝐓𝐄 
+*🅝🅞 🅑🅞🅡🅡🅐🅡 🅜🅢🅙:* 🧿|𝐀𝐍𝐓𝐈𝐃𝐄𝐋𝐄𝐓𝐄 
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antidelete
 
@@ -226,7 +226,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 *𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
 --------------------------------
 
-*𝐎𝐏𝐂𝐈𝐎𝐍 𝐄𝐍𝐀𝐁𝐋𝐄 𝐎 𝐃𝐈𝐒𝐀𝐁𝐋𝐄:* 🔊|𝐀𝐔𝐃𝐈𝐎𝐒_𝐁𝐎𝐓
+*🅐🅛🅔🅐🅣🅞🅡🅘🅞 🅐🅤🅓🅘🅞:* 🔊|𝐀𝐔𝐃𝐈𝐎𝐒_𝐁𝐎𝐓
 
 *𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} audios_bot
 
