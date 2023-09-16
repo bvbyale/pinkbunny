@@ -1,542 +1,344 @@
-const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
-  const optionsFull =`┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ ◉— *🅗🅐🅒🅗🅘🅚🅞-🅑🅞🅣* —◉
-┃∆≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡∆
-┃ ✦𝗠𝗘𝗡𝗨 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗘𝗡𝗔𝗕𝗟𝗘 𝗬 𝗗𝗜𝗦𝗔𝗕𝗟𝗘✦  
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-
-  
-*🅑🅘🅔🅝🅥🅔🅝🅘🅓🅐 :* 🌟|𝐖𝐄𝐋𝐂𝐎𝐌𝐄
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} welcome
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva la bienvenida en el grupo.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅑🅞🅣:* 👥|𝐌𝐎𝐃𝐎 𝐏𝐔𝐁𝐋𝐈𝐂𝐎 
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} public
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El bot se vuelve de uso publico y/o privado.
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podra ser usado por owners del bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅢🅔🅝🅢🅤🅐🅛:* 🔥|𝐌𝐎𝐃𝐎 𝐇𝐎𝐑𝐍𝐘
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} modohorny
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva los comandos +18 en el grupo.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅝🅞 🅔🅝🅛🅐🅒🅔🅢:* 🚨|𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antilink
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva el anti-enlaces de WhatsApp.
-
-*✓𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅝🅞 🅔🅝🅛🅐🅒🅔🅢:* 🚨|𝐀𝐍𝐓𝐈𝐋𝐈𝐍𝐊2
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antilink2
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva el anti-enlaces que inician en HTTPS.
-
-*✓𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅓🅔🅣🅔🅒🅣🅐🅡:* 🔎|𝐃𝐄𝐓𝐄𝐂𝐓
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} detect
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desacriva las notificaciones de cambios en el grupo.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-
-*🅓🅔🅣🅔🅒🅣🅐🅡:* 🔎|𝐃𝐄𝐓𝐄𝐂𝐓 2
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} detect2
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Detecta modificaciones en el grupo y mantiene una mejor gestion.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅟🅞🅓🅔🅡 🅑🅞🅣:* 🛡️|𝐑𝐄𝐒𝐓𝐑𝐈𝐂𝐓
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} restrict
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva las restricciones del Bot, como la de sacar o agregar personas a un grupo.
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podra ser usado por owners del bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅥🅘🅢🅣🅐 🅐🅤🅣🅞:* 🔮|𝐀𝐔𝐓𝐎𝐑𝐄𝐀𝐃
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} autoread
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Marca como leido los mensajes Pestados automáticamente.
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅐🅤🅓🅘🅞 🅑🅞🅣:* 🔊|𝐀𝐔𝐃𝐈𝐎𝐒
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} audios
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva los comandos de audios sin prefijos, en el grupo.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅢🅣🅘🅒🅚🅔🅡 🅐🅤🅣🅞:* 🎨|𝐀𝐔𝐓𝐎𝐒𝐓𝐈𝐂𝐊𝐄𝐑
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} autosticker 
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Todas las imagenes o videos enviados en el grupo se convierten en stickers. 
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅢🅞🅛🅞 🅟🅡🅘🅥🅐🅓🅞:* 💬|𝐏𝐂𝐎𝐍𝐋𝐘
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} pconly
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot solo responderá a los comandos si es ANTILLAMado.
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅢🅞🅛🅞 🅖🅡🅤🅟🅞🅢:* 🗺️|𝐆𝐂𝐎𝐍𝐋𝐘
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} gconly
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot solo respondera a los comandos si es un grupo. 
-
-*✓𝗡𝗢𝗧𝗔:*  Esta comando solo podrá ser usado por owners del Bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅘🅜🅐🅖🅔🅝 🅟🅤🅑🅛🅘🅒🅐:* 🖼️|𝐀𝐍𝐓𝐈𝐕𝐈𝐄𝐖𝐎𝐍𝐂𝐄 
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiviewonce
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Las imagenes enviadas para ver solo una vez, son reenviadas normal por el Bot. 
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅝🅞 🅟🅔🅡🅜🅘🅣🅔 🅛🅛🅐🅜🅐🅓🅐:* 📵|𝐀𝐍𝐓𝐈 𝐋𝐋𝐀𝐌𝐀𝐃𝐀
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} anticall
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot bloquerá a las personas que llamen al Bot. 
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podra ser usado por owners del Bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅝🅞 🅗🅐🅑🅛🅐🅡 🅐🅛 🅟🅥:* 🚫|𝐀𝐍𝐓𝐈𝐏𝐑𝐈𝐕𝐀𝐃𝐎
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiprivado
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot bloquerá a las personas que escriban al privado del Bot. 
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅝🅞 🅢🅞🅔🅩:* 🤬|𝐀𝐍𝐓𝐈𝐓𝐎𝐗𝐈𝐂
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antitoxic
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Detecta la malas palabras y advierte al participante del grupo, antes de ser eliminado.
-
-*✓𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅐🅝🅤🅛🅐🅡 🅣🅡🅐🅑🅐🅢:* 🖇️| 𝐀𝐍𝐓𝐈𝐓𝐑𝐀𝐁𝐀𝐒
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antitraba
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot detecta textos largos que podrian ser virus y causar lag en el chat y elimina al usuario.
-
-*✓𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅝🅤🅜🅔🅡🅞🅢 🅕🅐🅚🅔:* 🔪|𝐀𝐍𝐓𝐈𝐀𝐑𝐀𝐁𝐄𝐒
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiarabes
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Si un numero árabe se uné al grupo, el Bot lo elimina automaticamente.
-
-*✓𝗡𝗢𝗧𝗔:*  Se necesita tener activo el welcome y el restrict🛡️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅝🅤🅝🅔🅡🅞🅢 🅕🅐🅚🅔:* 🔪|𝐀𝐍𝐓𝐈𝐀𝐑𝐀𝐁𝐄𝐒 2
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antiarabes2
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Si un numero árabe escribe en el grupo, el Bot lo elimina automaticamente.
-
-*✓𝗡𝗢𝗧𝗔:*  Se necesita tener activo el restrict🛡️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅝🅞 🅢🅤🅑 🅑🅞🅣🅢:* 🤖|𝐌𝐎𝐃𝐄𝐉𝐀𝐃𝐈𝐁𝐎𝐓
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} modejadibot
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  Activa o desactiva el uso del comando para sub bots (${usedPrefix}serbot / ${usedPrefix}jadibot).
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅢🅞🅛🅞 🅐🅓🅜🅘🅝🅢 🅑🅞🅣:* 💻|𝐌𝐎𝐃𝐎𝐀𝐃𝐌𝐈𝐍
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} modoadmin
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot solo responderá a los admins del grupo.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅒🅗🅐🅣 🅑🅞🅣:* 🛰️|𝐒𝐈𝐌𝐒𝐈𝐌𝐈
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} simsimi
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot empezará a responder a los mensajes usando la IA de SimSimi.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando Solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅝🅞 🅢🅟🅐🅜:* ⏳|𝐀𝐍𝐓𝐈𝐒𝐏𝐀𝐌
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antispam
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot detecta cuando un usuario hace spam de comando y lo banea por 5 segundos y lo advierte.
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-*🅝🅞 🅑🅞🅡🅡🅐🅡 🅜🅢🅙:* 🧿|𝐀𝐍𝐓𝐈𝐃𝐄𝐋𝐄𝐓𝐄 
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} antidelete
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:*  El Bot detecta cuando un usuario elimina un mensaje y lo reenvía.
-
-*✓𝗡𝗢𝗧𝗔:*  Comando solo para admins de grupo⚖️.
-⧫≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋⧫
-
-
-*🅐🅛🅔🅐🅣🅞🅡🅘🅞 🅐🅤🅓🅘🅞:* 🔊|𝐀𝐔𝐃𝐈𝐎𝐒_𝐁𝐎𝐓
-
-*✓𝗖𝗢𝗠𝗔𝗡𝗗𝗢:* ${usedPrefix + command} audios_bot
-
-*✓𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡:* Se desactivan los audios del Bot del menuaudios para todos los chats privados.
-
-*✓𝗡𝗢𝗧𝗔:*  Este comando solo podrá ser usado por owners del Bot💻.`.trim();
-
-  const isEnable = /true|enable|(turn)?on|1/i.test(command);
-  const chat = global.db.data.chats[m.chat];
-  const user = global.db.data.users[m.sender];
-  const bot = global.db.data.settings[conn.user.jid] || {};
-  const type = (args[0] || '').toLowerCase();
-  let isAll = false; const isUser = false;
-  switch (type) {
-    case 'welcome':
-      if (!m.isGroup) {
-        if (!isOwner) {
-          global.dfail('group', m, conn);
-          throw false;
-        }
-      } else if (!(isAdmin || isOwner || isROwner)) {
-        global.dfail('admin', m, conn);
-        throw false;
-      }
-      chat.welcome = isEnable;
-      break;
-    case 'detect':
-      if (!m.isGroup) {
-        if (!isOwner) {
-          global.dfail('group', m, conn);
-          throw false;
-        }
-      } else if (!isAdmin) {
-        global.dfail('admin', m, conn);
-        throw false;
-      }
-      chat.detect = isEnable;
-      break;
-    case 'detect2':
-      if (!m.isGroup) {
-        if (!isOwner) {
-          global.dfail('group', m, conn);
-          throw false;
-        }
-      } else if (!isAdmin) {
-        global.dfail('admin', m, conn);
-        throw false;
-      }
-      chat.detect2 = isEnable;
-      break;
-    case 'simsimi':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.simi = isEnable;
-      break;
-    case 'antiporno':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiporno = isEnable;
-      break;
-    case 'delete':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.delete = isEnable;
-      break;
-    case 'antidelete':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antidelete = isEnable;
-      break;
-    case 'public':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      global.opts['self'] = !isEnable;
-      break;
-    case 'antilink':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiLink = isEnable;
-      break;
-    case 'antilink2':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiLink2 = isEnable;
-      break;
-    case 'antiviewonce':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiviewonce = isEnable;
-      break;
-    case 'modohorny':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.modohorny = isEnable;
-      break;
-    case 'modoadmin':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.modoadmin = isEnable;
-      break;
-    case 'autosticker':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.autosticker = isEnable;
-      break;
-    case 'audios':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.audios = isEnable;
-      break;
-    case 'restrict':
-      isAll = true;
-      if (!isOwner) {
-        global.dfail('owner', m, conn);
-        throw false;
-      }
-      bot.restrict = isEnable;
-      break;
-    case 'audios_bot':
-      isAll = true;
-      if (!isOwner) {
-        global.dfail('owner', m, conn);
-        throw false;
-      }
-      bot.audios_bot = isEnable;      
-      break;
-    case 'nyimak':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      global.opts['nyimak'] = isEnable;
-      break;
-    case 'autoread':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      bot.autoread2 = isEnable;
-      global.opts['autoread'] = isEnable;
-      break;
-    case 'pconly':
-    case 'privateonly':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      global.opts['pconly'] = isEnable;
-      break;
-    case 'gconly':
-    case 'grouponly':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      global.opts['gconly'] = isEnable;
-      break;
-    case 'swonly':
-    case 'statusonly':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      global.opts['swonly'] = isEnable;
-      break;
-    case 'anticall':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      bot.antiCall = isEnable;
-      break;
-    case 'antiprivado':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      bot.antiPrivate = isEnable;
-      break;
-    case 'modejadibot':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      bot.modejadibot = isEnable;
-      break;
-    case 'antispam':
-      isAll = true;
-      if (!isROwner) {
-        global.dfail('rowner', m, conn);
-        throw false;
-      }
-      bot.antispam = isEnable;
-      break;
-    case 'antitoxic':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiToxic = isEnable;
-      break;
-    case 'antitraba':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiTraba = isEnable;
-      break;
-    case 'antiarabes':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiArab = isEnable;
-      break;
-    case 'antiarabes2':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn);
-          throw false;
-        }
-      }
-      chat.antiArab2 = isEnable;
-      break;
-    default:
-      if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
-      throw false;
-  }
-  conn.sendMessage(m.chat, {text: `📃 𝗢𝗣𝗖𝗜𝗢𝗡: ${type}\n🔮 𝗘𝗦𝗧𝗔𝗗𝗢: ${isEnable ? '𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢' : '𝗗𝗘𝗦𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢'}\n💻 𝗣𝗔𝗥𝗔: ${isAll ? 'E̟S̟T̟E̟ B̟O̟T̟' : isUser ? '' : 'E̟S̟T̟E̟ C̟H̟A̟P̟}`}, {quoted: m});
-};
-handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
-handler.tags = ['group', 'owner'];
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
-export default handler;
+let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
+const sections = [
+{
+title: `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒`,
+rows: [
+{title: "✨ | 𝚆𝙴𝙻𝙲𝙾𝙼𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} welcome`},
+{title: "🌎 | 𝙼𝙾𝙳𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴 𝚅𝚄𝙴𝙻𝚅𝙴 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 𝚈/𝙾 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} public`},
+{title: "🥵 | 𝙼𝙾𝙳𝙾 𝙷𝙾𝚁𝙽𝚈", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾", rowId: `${usedPrefix + command} modohorny`},
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿", rowId: `${usedPrefix + command} antilink`},   
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 𝟸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} antilink2`},    
+{title: "🔎 | 𝙳𝙴𝚃𝙴𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙳𝙴 𝙽𝚄𝙴𝚅𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽 𝙴𝙽 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} detect`},      
+{title: "❗ | 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝙲𝙸𝙾𝙽𝙴𝚂 𝙿𝙰𝚁𝙰 𝚂𝙰𝙲𝙰𝚁 𝙶𝙴𝙽𝚃𝙴 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂", rowId: `${usedPrefix + command} restrict`},    
+{title: "☑️ | 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳", description: "𝙼𝙰𝚁𝙲𝙰 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙼𝙴𝙽𝚃𝙴 𝙻𝙰𝚂 𝙲𝙾𝙽𝚅𝙴𝚁𝚂𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙲𝙾𝙼𝙾 𝙻𝙴𝙸𝙳𝙾", rowId: `${usedPrefix + command} autoread`},
+{title: "🔊 | 𝙰𝚄𝙳𝙸𝙾𝚂", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾𝚂 𝚂𝙸𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾", rowId: `${usedPrefix + command} audios`},
+{title: "👾 | 𝙰𝚄𝚃𝙾𝚂𝚃𝙸𝙲𝙺𝙴𝚁", description: "𝚃𝙾𝙳𝙰𝚂 𝙻𝙰𝚂 𝙸𝙼𝙰𝙶𝙴𝙽𝙴𝚂, 𝚅𝙸𝙳𝙴𝙾𝚂 𝙾 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙴𝙽𝚅𝙸𝙰𝙳𝙾𝚂 𝚂𝙴 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝙽 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁", rowId: `${usedPrefix + command} autosticker`},
+{title: "💬 | 𝙿𝙲𝙾𝙽𝙻𝚈", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚂𝙸 𝙴𝚂 𝚄𝙽 𝙲𝙷𝙰𝚃 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} pconly`},
+{title: "🏢 | 𝙶𝙲𝙾𝙽𝙻𝚈", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚂𝙸 𝙴𝚂 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} gconly`},
+{title: "❌ | 𝙰𝙽𝚃𝙸𝚅𝙸𝙴𝚆𝙾𝙽𝙲𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝚅𝙴𝚁 𝚄𝙽𝙰 𝚂𝙾𝙻𝙰 𝚅𝙴𝚉", rowId: `${usedPrefix + command} antiviewonce`},
+{title: "📵 | 𝙰𝙽𝚃𝙸𝙻𝙻𝙰𝙼𝙰𝙳𝙰", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙻𝙻𝙰𝙼𝙰𝙳𝙰", rowId: `${usedPrefix + command} anticall`},
+{title: "💬 | 𝙰𝙽𝚃𝙸𝙿𝚁𝙸𝚅𝙰𝙳𝙾", description: "𝙴𝙻 𝙱𝙾𝚃 𝙱𝙻𝙾𝚀𝚄𝙴𝙰𝚁𝙰 𝙰 𝙻𝙾𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚀𝚄𝙴 𝙻𝙴 𝙷𝙰𝙱𝙻𝙴𝙽 𝙰𝙻 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} antiprivado`},
+{title: "🤬 | 𝙰𝙽𝚃𝙸𝚃𝙾𝚇𝙸𝙲", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙼𝙰𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰", rowId: `${usedPrefix + command} antitoxic`},
+{title: "🕸️ | 𝙰𝙽𝚃𝙸𝚃𝚁𝙰𝙱𝙰𝚂", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝚃𝚁𝙰𝙱𝙰𝚂", rowId: `${usedPrefix + command} antitraba`},
+{title: "👎🏻 | 𝙰𝙽𝚃𝙸𝙰𝚁𝙰𝙱𝙴𝚂", description: "𝙰𝙻 𝙴𝙽𝚅𝙸𝙰𝚁 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝚄𝙽 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝚁𝙰𝙱𝙴, 𝙴𝙻 𝙱𝙾𝚃 𝙻𝙾 𝚂𝙰𝙲𝙰", rowId: `${usedPrefix + command} antiarabes`}, 
+{title: "🤖 | 𝙼𝙾𝙳𝙴𝙹𝙰𝙳𝙸𝙱𝙾𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙿𝙰𝚁𝙰 𝚂𝚄𝙱 𝙱𝙾𝚃𝚂 (#𝚂𝙴𝚁𝙱𝙾𝚃 / #𝙹𝙰𝙳𝙸𝙱𝙾𝚃)", rowId: `${usedPrefix + command} modejadibot`}, 
+{title: "👑 | 𝙼𝙾𝙳𝙾𝙰𝙳𝙼𝙸𝙽", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙰𝙳𝙼𝙸𝙽𝚂 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} modoadmin`}, 
+{title: "😃 | 𝚂𝙸𝙼𝚂𝙸𝙼𝙸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝚀𝚄𝙴 𝙴𝙻 𝙱𝙾𝚃 𝙷𝙰𝙱𝙻𝙴 𝙴𝙽 𝙴𝙻 𝙲𝙷𝙰𝚃 𝚄𝚂𝙰𝙽𝙳𝙾 𝙻𝙰 𝙸𝙰 𝙳𝙴 𝚂𝙸𝙼𝚂𝙸𝙼𝙸", rowId: `${usedPrefix + command} simsimi`},
+]},
+{
+title: `𝐋𝐈𝐒𝐓𝐀 𝐃𝐄 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒`,
+rows: [
+{title: "✨ | 𝚆𝙴𝙻𝙲𝙾𝙼𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙰 𝙴𝙽 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} welcome`},
+{title: "🌎 | 𝙼𝙾𝙳𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴 𝚅𝚄𝙴𝙻𝚅𝙴 𝙳𝙴 𝚄𝚂𝙾 𝙿𝚄𝙱𝙻𝙸𝙲𝙾 𝚈/𝙾 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} public`},
+{title: "🥵 | 𝙼𝙾𝙳𝙾 𝙷𝙾𝚁𝙽𝚈", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 +𝟷𝟾", rowId: `${usedPrefix + command} modohorny`},
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂 𝙳𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿", rowId: `${usedPrefix + command} antilink`},   
+{title: "🔗 | 𝙰𝙽𝚃𝙸𝙻𝙸𝙽𝙺 𝟸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝚀𝚄𝙴 𝙸𝙽𝙸𝙲𝙸𝙰𝙽 𝙴𝙽 𝙷𝚃𝚃𝙿𝚂", rowId: `${usedPrefix + command} antilink2`},    
+{title: "🔎 | 𝙳𝙴𝚃𝙴𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙳𝙴 𝙽𝚄𝙴𝚅𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙲𝙸𝙾𝙽 𝙴𝙽 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} detect`},      
+{title: "❗ | 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝙲𝙸𝙾𝙽𝙴𝚂 𝙿𝙰𝚁𝙰 𝚂𝙰𝙲𝙰𝚁 𝙶𝙴𝙽𝚃𝙴 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂", rowId: `${usedPrefix + command} restrict`},    
+{title: "☑️ | 𝙰𝚄𝚃𝙾𝚁𝙴𝙰𝙳", description: "𝙼𝙰𝚁𝙲𝙰 𝙰𝚄𝚃𝙾𝙼𝙰𝚃𝙸𝙲𝙰𝙼𝙴𝙽𝚃𝙴 𝙻𝙰𝚂 𝙲𝙾𝙽𝚅𝙴𝚁𝚂𝙰𝙲𝙸𝙾𝙽𝙴𝚂 𝙲𝙾𝙼𝙾 𝙻𝙴𝙸𝙳𝙾", rowId: `${usedPrefix + command} autoread`},
+{title: "🔊 | 𝙰𝚄𝙳𝙸𝙾𝚂", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾𝚂 𝚂𝙸𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾", rowId: `${usedPrefix + command} audios`},
+{title: "👾 | 𝙰𝚄𝚃𝙾𝚂𝚃𝙸𝙲𝙺𝙴𝚁", description: "𝚃𝙾𝙳𝙰𝚂 𝙻𝙰𝚂 𝙸𝙼𝙰𝙶𝙴𝙽𝙴𝚂, 𝚅𝙸𝙳𝙴𝙾𝚂 𝙾 𝙴𝙽𝙻𝙰𝙲𝙴𝚂 𝙴𝙽𝚅𝙸𝙰𝙳𝙾𝚂 𝚂𝙴 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝙽 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁", rowId: `${usedPrefix + command} autosticker`},
+{title: "💬 | 𝙿𝙲𝙾𝙽𝙻𝚈", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚂𝙸 𝙴𝚂 𝚄𝙽 𝙲𝙷𝙰𝚃 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} pconly`},
+{title: "🏢 | 𝙶𝙲𝙾𝙽𝙻𝚈", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚂𝙸 𝙴𝚂 𝚄𝙽 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} gconly`},
+{title: "❌ | 𝙰𝙽𝚃𝙸𝚅𝙸𝙴𝚆𝙾𝙽𝙲𝙴", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝚅𝙴𝚁 𝚄𝙽𝙰 𝚂𝙾𝙻𝙰 𝚅𝙴𝚉", rowId: `${usedPrefix + command} antiviewonce`},
+{title: "📵 | 𝙰𝙽𝚃𝙸𝙻𝙻𝙰𝙼𝙰𝙳𝙰", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙻𝙻𝙰𝙼𝙰𝙳𝙰", rowId: `${usedPrefix + command} anticall`},
+{title: "💬 | 𝙰𝙽𝚃𝙸𝙿𝚁𝙸𝚅𝙰𝙳𝙾", description: "𝙴𝙻 𝙱𝙾𝚃 𝙱𝙻𝙾𝚀𝚄𝙴𝙰𝚁𝙰 𝙰 𝙻𝙾𝚂 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚀𝚄𝙴 𝙻𝙴 𝙷𝙰𝙱𝙻𝙴𝙽 𝙰𝙻 𝙿𝚁𝙸𝚅𝙰𝙳𝙾", rowId: `${usedPrefix + command} antiprivado`},
+{title: "🤬 | 𝙰𝙽𝚃𝙸𝚃𝙾𝚇𝙸𝙲", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝙼𝙰𝙻𝙰 𝙿𝙰𝙻𝙰𝙱𝚁𝙰", rowId: `${usedPrefix + command} antitoxic`},
+{title: "🕸️ | 𝙰𝙽𝚃𝙸𝚃𝚁𝙰𝙱𝙰𝚂", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙰𝙽𝚃𝙸 𝚃𝚁𝙰𝙱𝙰𝚂", rowId: `${usedPrefix + command} antitraba`},
+{title: "👎🏻 | 𝙰𝙽𝚃𝙸𝙰𝚁𝙰𝙱𝙴𝚂", description: "𝙰𝙻 𝙴𝙽𝚅𝙸𝙰𝚁 𝙼𝙴𝙽𝚂𝙰𝙹𝙴 𝚄𝙽 𝙽𝚄𝙼𝙴𝚁𝙾 𝙰𝚁𝙰𝙱𝙴, 𝙴𝙻 𝙱𝙾𝚃 𝙻𝙾 𝚂𝙰𝙲𝙰", rowId: `${usedPrefix + command} antiarabes`}, 
+{title: "🤖 | 𝙼𝙾𝙳𝙴𝙹𝙰𝙳𝙸𝙱𝙾𝚃", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙿𝙰𝚁𝙰 𝚂𝚄𝙱 𝙱𝙾𝚃𝚂 (#𝚂𝙴𝚁𝙱𝙾𝚃 / #𝙹𝙰𝙳𝙸𝙱𝙾𝚃)", rowId: `${usedPrefix + command} modejadibot`}, 
+{title: "👑 | 𝙼𝙾𝙳𝙾𝙰𝙳𝙼𝙸𝙽", description: "𝙴𝙻 𝙱𝙾𝚃 𝚂𝙾𝙻𝙾 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁𝙰 𝙰 𝙻𝙾𝚂 𝙰𝙳𝙼𝙸𝙽𝚂 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾", rowId: `${usedPrefix + command} modoadmin`}, 
+{title: "😃 | 𝚂𝙸𝙼𝚂𝙸𝙼𝙸", description: "𝙰𝙲𝚃𝙸𝚅𝙰 𝙾 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰 𝚀𝚄𝙴 𝙴𝙻 𝙱𝙾𝚃 𝙷𝙰𝙱𝙻𝙴 𝙴𝙽 𝙴𝙻 𝙲𝙷𝙰𝚃 𝚄𝚂𝙰𝙽𝙳𝙾 𝙻𝙰 𝙸𝙰 𝙳𝙴 𝚂𝙸𝙼𝚂𝙸𝙼𝙸", rowId: `${usedPrefix + command} simsimi`},
+]},
+]
+//{title: "🔞 | 𝙰𝙽𝚃𝙸𝙿𝙾𝚁𝙽𝙾", description: "𝚂𝙸 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝚅𝙸𝙳𝙴𝙾 𝚃𝙸𝙴𝙽𝙴 𝙲𝙾𝙽𝚃𝙴𝙽𝙸𝙳𝙾 𝙿𝙾𝚁𝙽𝙾 𝙴𝙻 𝙱𝙾𝚃 𝙴𝙻𝙸𝙼𝙸𝙽𝙰 𝙻𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝚅𝙸𝙳𝙴𝙾", rowId: `${usedPrefix + command} antiporno`},
+//let name = await conn.getName(m.sender)
+const listMessage = {
+text: ' ',
+footer: `┏━━━━━━━━━━━━━┓
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *welcome*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *welcome*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *public*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *public*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *modohorny*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *modohorny*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antilink*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antilink*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antilink2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antilink2*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *detect*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *detect*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *restrict*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *restrict*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *pconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *pconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *gconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *gconly*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *autoread*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *autoread*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *audios*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *audios*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiviewonce*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiviewonce*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *autosticker*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *autosticker*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *anticall*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *anticall*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiprivado*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiprivado*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antitoxic*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antitoxic*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antitraba*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antitraba*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *antiarabes*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *antiarabes*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *modejadibot*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *modejadibot*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *modoadmin*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *modoadmin*_
+┣ ඬ⃟ℹ️ _${usedPrefix}enable *simsimi*_
+┣ ඬ⃟ℹ️ _${usedPrefix}disable *simsimi*_
+┗━━━━━━━━━━━━━┛`,
+title: null,
+buttonText: "𝐒𝐄𝐋𝐄𝐂𝐂𝐈𝐎𝐍𝐄 𝐀𝐐𝐔𝐢",
+sections,
+Buttons: true }
+
+let isEnable = /true|enable|(turn)?on|1/i.test(command)
+let chat = global.db.data.chats[m.chat]
+let user = global.db.data.users[m.sender]
+let bot = global.db.data.settings[conn.user.jid] || {}
+let type = (args[0] || '').toLowerCase()
+let isAll = false, isUser = false
+switch (type) {
+case 'welcome':
+if (!m.isGroup) {
+if (!isOwner) {
+global.dfail('group', m, conn)
+throw false
+}
+} else if (!(isAdmin || isOwner || isROwner)) {
+global.dfail('admin', m, conn)
+throw false
+}
+chat.welcome = isEnable
+break
+case 'detect':
+if (!m.isGroup) {
+if (!isOwner) {
+global.dfail('group', m, conn)
+throw false
+}
+} else if (!isAdmin) {
+global.dfail('admin', m, conn)
+throw false
+}
+chat.detect = isEnable
+break
+case 'simsimi':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.simi = isEnable
+break   
+case 'antiporno':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiporno = isEnable
+break        
+case 'delete':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.delete = isEnable
+break
+case 'antidelete':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.delete = !isEnable
+break
+case 'public':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+global.opts['self'] = !isEnable
+break
+case 'antilink':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiLink = isEnable
+break
+case 'antilink2':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiLink2 = isEnable 
+break
+case 'antiviewonce':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiviewonce = isEnable 
+break
+case 'modohorny':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.modohorny = isEnable          
+break
+case 'modoadmin':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.modoadmin = isEnable          
+break    
+case 'autosticker':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.autosticker = isEnable          
+break
+case 'audios':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.audios = isEnable          
+break
+case 'restrict':
+isAll = true
+if (!isOwner) {
+global.dfail('owner', m, conn)
+throw false
+}
+bot.restrict = isEnable
+break
+case 'nyimak':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+global.opts['nyimak'] = isEnable
+break
+case 'autoread':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.autoread2 = isEnable    
+global.opts['autoread'] = isEnable  
+break
+case 'pconly':
+case 'privateonly':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+global.opts['pconly'] = isEnable
+break
+case 'gconly':
+case 'grouponly':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+global.opts['gconly'] = isEnable
+break
+case 'swonly':
+case 'statusonly':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+global.opts['swonly'] = isEnable
+break
+case 'anticall':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.antiCall = isEnable
+break
+case 'antiprivado':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.antiPrivate = isEnable
+break
+case 'modejadibot':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.modejadibot = isEnable
+break        
+case 'antitoxic':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiToxic = isEnable
+break
+case 'antitraba':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiTraba = isEnable
+break
+case 'antiarabes':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiArab = isEnable  
+break
+default:
+if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage, { quoted: m })
+throw false
+}
+conn.sendButton(m.chat, `⚙️ 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
+⚡ 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
+🔰 𝙿𝙰𝚁𝙰: ${isAll ? '𝙴𝚂𝚃𝙴 𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'}`, wm2, null, [[`${isEnable ? '✖️ 𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✖️' : '✔️ 𝙰𝙲𝚃𝙸𝚅𝙰𝚁 ✔️'}`, `${isEnable ? `#disable ${type}` : `#enable ${type}`}`]], m)}
+handler.help = ['en', 'dis'].map(v => v + 'able <option>')
+handler.tags = ['group', 'owner']
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i
+export default handler
