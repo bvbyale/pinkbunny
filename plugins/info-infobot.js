@@ -24,7 +24,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠༄[🖥️] *𝑶𝑾𝑵𝑬𝑹:* 𝙷𝙰𝙲𝙷𝙴 𝙹𝙾𝚃𝙰
-╠༄[☎️] *𝑵𝑼𝑴𝑬𝑹𝑶:* +51 918 299 647
+╠༄[☎️] *𝑵𝑼𝑴𝑬𝑹𝑶:* wa.me/51992004117
 ╠༄[🔌] *𝑷𝑹𝑬𝑭𝑰𝑱𝑶:* ${usedPrefix}
 ╠༄[⚖️] *𝑷𝑹𝑰𝑽𝑨𝑫𝑶𝑺 𝑪𝑯𝑨𝑻𝑺:* ${chats.length - groups.length}
 ╠༄[👥] *𝑮𝑹𝑼𝑷𝑶𝑺 𝑪𝑯𝑨𝑻𝑺:* ${groups.length}
